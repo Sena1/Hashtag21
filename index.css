@@ -1,0 +1,67 @@
+#title {
+    color: #B40404 !important;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+main section article {
+    display: block;
+    width: 375px;
+    height: 550px;
+    margin: 50px 0px 150px 200px;
+    padding: 18px;
+    vertical-align: middle;
+    text-align: left;
+    background-color: #B40404;
+    align-self: center;
+}
+
+b {
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 120px;
+    text-align: left;
+}
+
+input {
+    display: inline-block;
+    float: left;
+    border-color: white;
+}
+
+select {
+    display: inline-block;
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 100px 0px 0px 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #B40404;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+}
+
+li .active {
+    background-color: white;
+}
+
+#nodeschoolpic {
+    height: 100px;
+}
