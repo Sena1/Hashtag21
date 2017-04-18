@@ -1,22 +1,20 @@
 #title {
-    color: #B40404 !important;
+    color: #00BFFF !important;
 }
 
 body {
-    background-color: black;
-    color: white;
+    background-color: grey;
+    color: black;
 }
 
-main section article {
+#formular {
     display: block;
     width: 375px;
     height: 550px;
-    margin: 50px 0px 150px 200px;
+    margin-top: 20px;
+    margin-left: 450px;
     padding: 18px;
-    vertical-align: middle;
-    text-align: left;
-    background-color: #B40404;
-    align-self: center;
+    background-color: #6495ED;
 }
 
 b {
@@ -30,7 +28,7 @@ b {
 input {
     display: inline-block;
     float: left;
-    border-color: white;
+    border-color: #6495ED;
 }
 
 select {
@@ -38,12 +36,11 @@ select {
     float: left;
 }
 
-ul {
+#menuleiste {
     list-style-type: none;
-    margin: 100px 0px 0px 0px;
-    padding: 0;
+    margin-top: 20px;
     overflow: hidden;
-    background-color: #B40404;
+    background-color: #90EE90;
 }
 
 li a {
@@ -54,14 +51,6 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
-    background-color: white;
-}
-
 li .active {
-    background-color: white;
-}
-
-#nodeschoolpic {
-    height: 100px;
+    background-color: #00BFFF;
 }
