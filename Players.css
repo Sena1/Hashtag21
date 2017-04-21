@@ -1,84 +1,45 @@
+#title {
+    margin-left: 1150px;
+    font-size: 50px;
+    font-style: oblique;
+    color: orange !important;
+}
+
 body {
-    background-color: grey;
-    color: black;
+    background: url('img/basketball2.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    color: orange;
 }
 
-#menüleiste {
+#menuleiste {
     list-style-type: none;
-    margin-top: 20px;
+    margin-top: -50px;
     overflow: hidden;
-    background-color: #90EE90;
-}
-
-li {
-    float: left;
-    border-right: 1px solid black;
+    background-color: rgba(61, 61, 61, 0.6);
 }
 
 li a {
+    float: left;
+    border-right: 1px solid black;
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li .active {
-    background-color: #6495ED;
-}
-
-b {
-    display: inline-block;
-    float: left;
-    clear: left;
-    width: 120px;
-    text-align: left;
-}
-
-input {
-    display: inline-block;
-    float: left;
-    border-color: black;
-}
-
-input:hover, input:active {
-    outline: none;
-    background: black;
-    color: #B40404;
-}
-
-select {
-    display: inline-block;
-    float: left;
+    background-color: orange;
+    color: black;
 }
 
 table, th, td {
     /*  border="5";*/
-    border: 3px solid #90EE90;
+    border: 3px solid #CDB38B;
     border-collapse: collapse;
     padding: 15px;
     margin: 50px 0px 150px 200px;
-    background-color: #6495ED;
-}
-
-
-/*
-table tr:nth-child(even) {
-    background-color: transparent;
-}*/
-
-footer {
-    line-height: 25px;
-    width: 100%;
-    height: 40px;
-    bottom: 0;
-    position: relative;
-    background-repeat: no-repeat;
-    background-color: #B40404;
-    ;
-    background-size: 120px;
-    background-position: 5%;
-    color: black;
-    font-size: 12.8px;
-    text-align: center;
+    background-color: rgba(61, 61, 61, 0.8);
 }
