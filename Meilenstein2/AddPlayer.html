@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <link rel="stylesheet" href="AddPlayer.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta charset="UTF-­8">
+  <link href="http://fonts.googleapis.com/css?family=Droid+Sans+Mono" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="AddPlayer.js"></script>
+</head>
+
+<div id="title">#21</div>
+
+<body>
+  <ul id="menuleiste">
+    <li><a href="Home.html">Home</a></li>
+    <li><a class="active" href="AddPlayer.html">Add Player</a></li>
+    <li><a href="Players.html">Players</a></li>
+  </ul>
+
+</body>
+
+
+<form id="formular">
+
+
+  </br><b>Vorname:</b>
+  <input type="text" id="Vorname" size="30" title="Vorname" required /></br>
+
+  </br> <b>Name:</b>
+  <input type="text" id="Name" size="30" title="Name" required/> </br>
+
+
+  </br> <b>Verein:</b>
+  <input type="text" id="Verein" size="30" title="Verein" required/></br>
+
+  </br><b>Headcoach:</b>
+  <input type="text" id="Headcoach" size="30" title="Headcoach" required /></br>
+
+
+  </br><b>Assistant Coach:</b>
+  <input type="text" id="AssistantCoach" size="30" title="Assistant Coach" required/></br>
+
+  <br/><b>Aktiv:</b></br>
+  <input type="radio" name="aktiv" value="Ja" checked="checked" />Ja<br/>
+  <input type="radio" name="aktiv" value="Nein" />Nein<br/>
+
+
+  <br/><br/><b>Position:</b>
+  <select name="position" size="1">
+  <option value="Center">Center</option>
+  <option	value="Guard">Guard</option>
+  <option	value="Power Forward">Power Forward</option>
+ 	<option bvalue="Wing" selected="selected">Wing</option>
+  <option value="Small Forward">Small Forward</option>	</select><br/>
+
+  </br><b>R&uuml;ckennummer:</b>
+  <input type="number" name="number" min="4" max="15" required/></br>
+
+  </br><b>Geburtsjahr:</b>
+  <input type="number" name="jahr" min="0" max="2017" required /></br>
+
+
+  <b>Favorit markieren: </b>
+  <input type="checkbox" name="favorit" /><br/>
+
+
+
+
+  </br>
+
+
+
+  <button type="button" name="senden" onclick="post(form)">Senden</button>
+
+</form>
+
+
+
+</body>
+
+</html>
