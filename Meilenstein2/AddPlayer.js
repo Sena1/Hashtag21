@@ -49,6 +49,7 @@ xhr.setRequestHeader('Content-Type','application/json');
  } //Ende der Zuweisung
 
  	xhr.send(formData);
+	alert("Daten wurden an Server gesendet");
 }
 }
 
