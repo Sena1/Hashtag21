@@ -10,7 +10,7 @@ onload = function(){
 
 function getAndBuild(link){
 	var xhr = new XMLHttpRequest();
-alert("LINK = " + link);
+//alert("LINK = " + link);
 
    	xhr.open("GET",link);
 	xhr.responseType = 'json';
@@ -46,6 +46,6 @@ alert("LINK = " + link);
 		     response[i].year +
              "</td></tr>";
 	 }
-	 alert ("HTML = " + out);
+	 //alert ("HTML = " + out);
 	 document.getElementById("servertable").innerHTML = out;
  }

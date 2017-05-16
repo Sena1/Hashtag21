@@ -23,7 +23,7 @@ if(vorname.match(pattern) && name.match(pattern) && verein.match(pattern) && hco
 
 function valideData(){
 
-	var formData = new FormData(form);//Ein Objekt der Klasse FormData wird instanziert (Parameter für den Konstruktor ist die Variable form)
+var formData = new FormData(form);//Ein Objekt der Klasse FormData wird instanziert (Parameter für den Konstruktor ist die Variable form)
 	var xhr = new XMLHttpRequest();
 
 
@@ -31,17 +31,13 @@ function valideData(){
 	xhr.open('POST', 'http://188.166.165.74:13337/api/players', true);
 	//xhr.setRequestHeader('Accept','*/*');
 
-	xhr.withCredentials = true;
+
 
 xhr.setRequestHeader('Content-Type','application/json');
 
 
-xhr.setRequestHeader('Access-Control-Allow-Origin','*');
-xhr.setRequestHeader('Access-Control-Allow-Credentials','true');
-xhr.setRequestHeader('Access-Control-Allow-Headers','Cache-Control, Pragma, Origin, Authorization, Content-Type, X-Requested-With');
-xhr.setRequestHeader('Access-Control-Allow-Methods','GET, POST');
-
-
+//xhr.setRequestHeader('Access-Control-Allow-Origin','*');
+//xhr.setRequestHeader('Access-Control-Allow-Methods','GET, POST');
 
 
 	xhr.onload = function(senden) {  	// dem Objekt xhr wird beim Ereignis "onload" die zugeordnete Funktion ausführen
