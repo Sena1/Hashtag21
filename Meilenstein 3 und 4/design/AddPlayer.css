@@ -1,0 +1,68 @@
+#title {
+  margin-left: 1150px;
+  font-size: 50px;
+  font-style: oblique;
+  color: orange !important;
+}
+
+body {
+  background: url(../img/basketball2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  color: black;
+}
+
+#menuleiste {
+  list-style-type: none;
+  margin-top: -50px;
+  overflow: hidden;
+  background-color: rgba(61, 61, 61, 0.6);
+}
+
+#formular {
+  display: block;
+  margin-top: 50px;
+  width: 375px;
+  height: 550px;
+  margin-left: 450px;
+  padding: 18px;
+  background-color: rgba(61, 61, 61, 0.8);
+}
+
+b {
+  display: inline-block;
+  float: left;
+  clear: left;
+  width: 120px;
+  text-align: left;
+  color: orange;
+}
+
+input {
+  display: inline-block;
+  float: left;
+  border-color: orange;
+  background-color: rgba(196, 196, 196, 0.6);
+}
+
+select {
+  display: inline-block;
+  float: left;
+  border-color: orange;
+}
+
+li a {
+  float: left;
+  border-right: 1px solid black;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li .active {
+  background-color: orange;
+  color: black;
+}

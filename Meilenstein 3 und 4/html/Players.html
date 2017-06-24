@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>#21</title>
+  <link rel="stylesheet" href="../design/Players.css">
+  <link href="../design/Players.css" rel="stylesheet" type="text/css">
+
+  <script type="text/javascript" src="../javascript/Players.js">
+  </script>
+  <div id="title"> #21</div>
+</head>
+
+
+<body>
+  <ul id="menuleiste">
+    <li><a href="Home.html">Home</a></li>
+    <li><a href="AddPlayer.html">Add Player</a></li>
+    <li><a class="active" href="#Players">Players</a></li>
+    <li><a href="chat.html">Chat</a></li>
+  </ul>
+
+  <main>
+
+    <section>
+      <article>
+        <h1>Spielerdaten</h1>
+        <input id="fav" type="button" value="Favoriten" onClick="getAndBuild('http://localhost:3000/api/players?favorites=true')" />
+        <input id="all" type="button" name="all" value="Alle Spieler" onClick="getAndBuild('http://localhost:3000/api/players')" />
+        </br>
+        </br>
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Vorname</th>
+              <th>Verein</th>
+              <th>Headcoach</th>
+              <th>Position</th>
+              <th>Rückennummer</th>
+              <th>Geburtsjahr</th>
+            </tr>
+          </thead>
+          <tbody id="servertable" border="1"></tbody>
+        </table>
+      </article>
+    </section>
+
+  </main>
+
+
+
+</body>
+
+</html>
