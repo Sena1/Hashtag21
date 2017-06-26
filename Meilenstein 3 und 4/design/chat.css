@@ -1,0 +1,75 @@
+#title {
+  margin-left: 1150px;
+  font-size: 50px;
+  font-style: oblique;
+  color: orange !important;
+}
+
+#menuleiste {
+  list-style-type: none;
+  margin-top: -50px;
+  overflow: hidden;
+  background-color: rgba(61, 61, 61, 0.6);
+}
+
+body {
+  background: url(../img/basketball2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  color: black;
+}
+
+
+/* CSS Document */
+
+
+/*#chat {
+  margin: 5;
+  padding: 5;
+  box-sizing: border-box;
+}*/
+
+#messages {
+  text-align: left;
+  /*margin: 20px auto;*/
+  margin-top: 60px;
+  margin-bottom: 25px;
+  padding: 20px;
+  background-color: rgba(61, 61, 61, 0.8);
+  height: 400px;
+  width: 500px;
+  margin-left: 450px;
+  color: orange;
+}
+
+
+/*#messages li {
+  padding: 5px 10px;
+}*/
+
+
+/*#messages li:nth-child(odd) {
+  background: #eee;
+}*/
+
+#chat {
+  bottom: 0;
+  width: 500px;
+  margin: -20px auto 100px;
+  margin-left: 418px;
+  opacity: 0.9;
+}
+
+#eingabe {
+  border: 0;
+  padding: 10px;
+  width: 75%;
+  margin-left: 32px;
+}
+
+button {
+  background: orange;
+  border: none;
+  padding: 10px;
+}

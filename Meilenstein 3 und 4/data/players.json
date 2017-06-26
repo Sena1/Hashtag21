@@ -1,0 +1,222 @@
+[
+  {
+    "_id": "57506933979c0d5b218884b1",
+    "name": "Hughes",
+    "vorname": "Olson",
+    "club": "EXOBLUE",
+    "coach": "Davis Hopkins",
+    "position": "Guard",
+    "number": 13,
+    "year": 1970,
+    "favorit": false
+  },
+  {
+    "_id": "57506933020659ae89468a79",
+    "name": "Heath",
+    "vorname": "Tammy",
+    "club": "OATFARM",
+    "coach": "Kathryn Mckay",
+    "position": "Small Forward",
+    "number": 15,
+    "year": 1970,
+    "favorit": true
+  },
+  {
+    "_id": "575069337d449791aa0976e1",
+    "name": "Obrien",
+    "vorname": "Manuela",
+    "club": "TALKOLA",
+    "coach": "Gwendolyn Gordon",
+    "position": "Power Forward",
+    "number": 7,
+    "year": 1970,
+    "favorit": true
+  },
+  {
+    "_id": "575069332f16d4c793e88fe5",
+    "name": "Olsen",
+    "vorname": "Lucy",
+    "club": "KAGE",
+    "coach": "Turner Goodwin",
+    "position": "Guard",
+    "number": 6,
+    "year": 1970,
+    "favorit": false
+  },
+  {
+    "_id": "5750693356cec4a9abbb4e7f",
+    "name": "Gibson",
+    "vorname": "Shannon",
+    "club": "EMTRAC",
+    "coach": "Heath Sullivan",
+    "position": "Power Forward",
+    "number": 11,
+    "year": 1970,
+    "favorit": false
+  },
+  {
+    "_id": "57506933ea7a48f65cf1177e",
+    "name": "Mathis",
+    "vorname": "Melendez",
+    "club": "IDEALIS",
+    "coach": "Elizabeth Burks",
+    "position": "Small Forward",
+    "number": 9,
+    "year": 1970,
+    "favorit": false
+  },
+  {
+    "_id": "57506933d334987886811473",
+    "name": "Meadows",
+    "vorname": "Beverley",
+    "club": "RUBADUB",
+    "coach": "Olga Simpson",
+    "position": "Wing",
+    "number": 14,
+    "year": 1970,
+    "favorit": true
+  },
+  {
+    "_id": "575069339248b53c83741897",
+    "name": "Stout",
+    "vorname": "Merrill",
+    "club": "ENORMO",
+    "coach": "Mcbride Diaz",
+    "position": "Wing",
+    "number": 14,
+    "year": 1970,
+    "favorit": true
+  },
+  {
+    "_id": "575069336cb53a6dd1776b74",
+    "name": "Hamilton",
+    "vorname": "Robbins",
+    "club": "XINWARE",
+    "coach": "Moody Cummings",
+    "position": "Power Forward",
+    "number": 12,
+    "year": 1970,
+    "favorit": false
+  },
+  {
+    "_id": "575069336cb93045ce8c8945",
+    "name": "Woodward",
+    "vorname": "Tanisha",
+    "club": "ENQUILITY",
+    "coach": "Ingrid Sharpe",
+    "position": "Small Forward",
+    "number": 12,
+    "year": 1970,
+    "favorit": false
+  },
+  {
+    "_id": "57506933a031c0773a168fa1",
+    "name": "Guzman",
+    "vorname": "Wiley",
+    "club": "VIASIA",
+    "coach": "Reid Holman",
+    "position": "Wing",
+    "number": 15,
+    "year": 1970,
+    "favorit": false
+  },
+  {
+    "_id": "5750693330f362d123c2c412",
+    "name": "Owen",
+    "vorname": "Soto",
+    "club": "ASIMILINE",
+    "coach": "Branch Cochran",
+    "position": "Wing",
+    "number": 11,
+    "year": 1970,
+    "favorit": false
+  },
+  {
+    "_id": "57506933e88e901c12e93bac",
+    "name": "Pacheco",
+    "vorname": "Sheryl",
+    "club": "DADABASE",
+    "coach": "Kathleen Stevens",
+    "position": "Guard",
+    "number": 10,
+    "year": 1970,
+    "favorit": true
+  },
+  {
+    "_id": "5750693345cac99c1c521d89",
+    "name": "Bean",
+    "vorname": "Deanne",
+    "club": "DIGIPRINT",
+    "coach": "Elisabeth Gould",
+    "position": "Small Forward",
+    "number": 5,
+    "year": 1970,
+    "favorit": false
+  },
+  {
+    "_id": "57506933da109cd9da7ab345",
+    "name": "Welch",
+    "vorname": "Bertie",
+    "club": "EXOSWITCH",
+    "coach": "Jefferson Marshall",
+    "position": "Center",
+    "number": 10,
+    "year": 1970,
+    "favorit": true
+  },
+  {
+    "_id": "5750693398c2b0b9bdf53b90",
+    "name": "Webb",
+    "vorname": "Karina",
+    "club": "ASSURITY",
+    "coach": "Harrell Mason",
+    "position": "Small Forward",
+    "number": 9,
+    "year": 1970,
+    "favorit": false
+  },
+  {
+    "_id": "5750693391fffa6325b84776",
+    "name": "Burris",
+    "vorname": "Mills",
+    "club": "ZOARERE",
+    "coach": "Kirsten Dillard",
+    "position": "Center",
+    "number": 9,
+    "year": 1970,
+    "favorit": false
+  },
+  {
+    "_id": "5750693390e7df1c5102e548",
+    "name": "York",
+    "vorname": "Alberta",
+    "club": "HIVEDOM",
+    "coach": "Rene Harris",
+    "position": "Small Forward",
+    "number": 10,
+    "year": 1970,
+    "favorit": true
+  },
+  {
+    "_id": "57506933dec19e421bb6b181",
+    "name": "Schneider",
+    "vorname": "Sherry",
+    "club": "GENESYNK",
+    "coach": "Mattie Santos",
+    "position": "Guard",
+    "number": 7,
+    "year": 1970,
+    "favorit": true
+  },
+  {
+    "_id": "575069330ee235d519087e66",
+    "name": "Stephenson",
+    "vorname": "Eve",
+    "club": "QUIZMO",
+    "coach": "Miriam Ramsey",
+    "position": "Small Forward",
+    "number": 12,
+    "year": 1970,
+    "favorit": true
+  }
+]
