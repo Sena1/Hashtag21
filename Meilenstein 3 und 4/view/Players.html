@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="de">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>#21</title>
+  <div id="title"> #21</div>
+  <link rel="stylesheet" href="../design/addPlayer.css">
+  <link href="../design/players.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="../javascript/playerTable.js">
+  </script>
+
+
+</head>
+
+<body>
+  <ul id="menuleiste">
+    <li><a href="home.html">Home</a></li>
+    <li><a href="addPlayer.html">Add Player</a></li>
+    <li><a class="active" href="#players">Players</a></li>
+    <li><a href="chat.html">Chat</a></li>
+  </ul>
+
+  <main>
+
+    <section>
+      <article>
+        <h1>Spielerdaten</h1>
+        <input id="fav" type="button" value="Favoriten" onClick="getAndBuild('http://localhost:3000/api/players?favorites=true')" />
+        <input id="all" type="button" name="all" value="Alle Spieler" onClick="getAndBuild('http://localhost:3000/api/players');" />
+        <br/>
+        <div id="SSpieler">_</div>
+        <input type="text" name="query" value="" id="query" size="1" />
+        <button type="button" onclick="getAndBuild('http://localhost:3000/api/players?search=')">suche Spieler</button>
+        <br/>
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Vorname</th>
+              <th>Verein</th>
+              <th>Headcoach</th>
+              <th>Position</th>
+              <th>Rückennummer</th>
+              <th>Geburtsjahr</th>
+              <th>Funktion</th>
+            </tr>
+          </thead>
+          <tbody id="servertable" border="1"></tbody>
+        </table>
+      </article>
+    </section>
+
+  </main>
+
+</body>
+
+</html>
